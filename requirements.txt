@@ -1,0 +1,5 @@
+streamlit
+pymysql
+requests
+pandas
+aiohttp 
