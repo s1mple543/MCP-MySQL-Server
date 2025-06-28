@@ -38,13 +38,18 @@
 - **长结果分页**: 支持长查询结果的分页显示和导航
 
 ## 安装和配置
+**项目在python=3.12.2上可运行，推荐python>3.12**
+### 1. 下载源代码
+```bash
+git clone https://github.com/s1mple543/MCP-MySQL-Server.git
+```
 
-### 1. 安装依赖
+### 2. 安装依赖
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. 配置数据库和API
+### 3. 配置数据库和API
 编辑 `config.py`:
 ```python
 DB_CONFIG = {
@@ -61,7 +66,7 @@ TONGYI_API_KEY = "your_tongyi_api_key"
 
 ### 方式1: CLI命令行模式
 ```bash
-python main.py
+python cli.py
 ```
 
 ### 方式2: Streamlit可视化界面
